@@ -8,4 +8,4 @@ Para este projeto foram utilizados: Node.js, Bootstrap, Sass, Autoprefixer e Fon
 
 ## Disponível em
 
-* [https://grazielly-tinder.netlify.app/](https://grazielly-spotify.netlify.app/) - Netlify
+* [https://grazielly-tinder.netlify.app/]([https://grazielly-tinder.netlify.app/) - Netlify
