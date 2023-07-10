@@ -1,0 +1,29 @@
+//My theme colors
+$red:     #fe4d6a;
+$orange:  #ff6a5b;
+$icon-xmark:  #fa0000;
+$icon-comments:  #25d7ef;
+$icon-user: #20cf3e;
+
+//White and gray colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$primary:       $red;
+$secondary:     $orange;
+$light:         $gray-100;
+$dark:          $gray-900;
+
+
+//Import bootstrap
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

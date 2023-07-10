@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+//Gradient Tinder
+
+@mixin gradientTinder{
+    background-image: linear-gradient(to bottom, rgba($primary,0.9), rgba($secondary, 0.9));
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin shadown-text{
+    background-image: linear-gradient(to bottom, rgba($black,0.2), rgba($black, 0.9));
+    color:$white;
+}

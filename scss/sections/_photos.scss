@@ -1,0 +1,26 @@
+@use '../components/mixins' as *;
+@use '../custom' as *;
+
+.photos{
+    @include shadown-text;
+    height: 20vh;
+    
+    .photo{
+        
+        &-text{
+            color: $gray-100;
+            width: 90%;
+            margin: auto;
+        }
+
+        &-name-age{
+            display: flex;
+            
+        }
+
+        &-bio{
+            text-align: justify;
+            letter-spacing: 0.2rem;
+        }
+    }
+}

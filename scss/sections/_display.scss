@@ -1,0 +1,22 @@
+@use '../components/mixins' as *;
+@use '../custom' as *;
+
+.display-cel{
+    @include media-breakpoint-up(lg){
+        background-size: contain;
+    }
+    @include media-breakpoint-down(lg){
+        background-size: contain;
+    }
+
+    @include media-breakpoint-down(md){
+        background-size: cover;
+    }
+    height: calc(100vh - 15vh - 74px);
+    display: flex;
+    align-items: flex-end;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 1rem;
+    background: url('../../assets/img/perfil-match.png') no-repeat center fixed;
+    background-size: cover;
+}

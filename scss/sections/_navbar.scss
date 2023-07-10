@@ -1,0 +1,26 @@
+@use '../components/mixins' as *;
+@use '../custom' as *;
+
+
+.icon{
+  
+    font-size: 2rem;
+
+    &-container{
+        display: flex;
+    }
+
+    &-fire{
+        @include gradientTinder;
+        transition: all 500ms ease;
+    }
+
+    &-comment{
+
+        color: $icon-comments;
+    }
+
+    &-user{
+        color: $icon-user;
+    }
+}

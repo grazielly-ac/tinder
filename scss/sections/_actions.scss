@@ -1,0 +1,32 @@
+@use '../components/mixins' as *;
+@use '../custom' as *;
+
+.actions {
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    align-content: center;
+    align-items: center;
+
+    .action{
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        max-width: 80px;
+        padding: 1rem;
+        background-color: rgba($primary,0.2);
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 0 1rem;
+
+     &:hover{
+        background-color: rgba($secondary,0.4);
+     }
+
+     &:active{
+        background-color: rgba($secondary,0.4);
+        box-shadow: 0 5px rgba($secondary,0.9);
+        transform: translateY(4px);
+     }
+    }
+}
